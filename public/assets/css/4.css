@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  src: url(/typo3conf/ext/culture_portal/Resources/Public/Build/fonts/Inter-Regular.6fcad65b.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: Inter;
+  font-weight: 600;
+  src: url(/typo3conf/ext/culture_portal/Resources/Public/Build/fonts/Inter-SemiBold.ab564c2d.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: Inter;
+  font-weight: 700;
+  src: url(/typo3conf/ext/culture_portal/Resources/Public/Build/fonts/Inter-Bold.eccbcfa9.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: Inter-Bold;
+  src: url(/typo3conf/ext/culture_portal/Resources/Public/Build/fonts/Inter-Bold.eccbcfa9.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: Nantes-Bold;
+  src: url(/typo3conf/ext/culture_portal/Resources/Public/Build/fonts/NantesWeb-Bold.5d5956b2.woff2)
+    format("woff2");
+}

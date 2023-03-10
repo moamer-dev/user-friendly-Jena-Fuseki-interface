@@ -164,48 +164,17 @@
                         "} GROUP BY ?Dataset\n"+
                         "HAVING (COUNT (?Distribution) >= 10)\n"+
                         "ORDER BY ASC (?Distributions)";
-                  /*
-                  const yasgui = new Yasgui(document.getElementById("yasgui"), {
-                      requestConfig: {
-                         endpoint: "https://service.tib.eu/lablsk-sparql/fuseki/#/dataset/ckan1153/query",
-                         headers: () => ({
-                            Authorization: ("admin:NFDI4ChemFuseki")
-                          })
-                       },
-                      copyEndpointOnNewTab: false,
-                      yasqe: { value: query_1 },
-                    }); */
-                    const username = "admin";
-                    const password = "NFDI4ChemFuseki";
+                
+                    const username = "#";
+                    const password = "#";
                     const yasgui = new Yasgui(document.getElementById("yasgui"), {
                       requestConfig: {
                          endpoint: "https://sparql11.test.service.tib.eu/fuseki/#/dataset/ckan1153/query",
-                         //headers: {
-                          //"Authorization": `Basic ${btoa(`${username}:${password}`)}`
-                        //}
                        },
                       copyEndpointOnNewTab: false,
                       yasqe: { value: query_1 },
                     }); 
-
-/*
-                    const yasgui = new Yasgui(document.getElementById("yasgui"));
-
-                    const endpointUrl = "https://service.tib.eu/lablsk-sparql/fuseki/#/dataset/ckan1153/query";
-                    const query = "SELECT * WHERE {?s ?p ?o} LIMIT 10";
-                    const username = "admin";
-                    const password = "NFDI4ChemFuseki";
-
-                    const requestConfig = {
-                      method: "POST",
-                      headers: {
-                        "Authorization": `Basic ${btoa(`${username}:${password}`)}`
-                      },
-                      body: query_1
-                    };
-
-                    yasgui.setEndpoint(endpointUrl, requestConfig);
-*/                   
+              
                     function addNewTab(query) {
                       const activeTab = yasgui.getTab();
                       const yasqe = activeTab.yasqe;

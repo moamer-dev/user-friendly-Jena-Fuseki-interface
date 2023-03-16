@@ -88,35 +88,5 @@ class Home extends Controller
 		
 		$this->view('smw1368table',$data);
 	}
-/*
-	public function ckan($action = null)
-	{
-
-
-		$data = [];
-		$data['action'] = $action;
-		
-		$this->view('ckan',$data);
-	}
-	public function ckan_table($action = null)
-	{
-
-
-		$data = [];
-		$data['action'] = $action;
-		
-		$this->view('ckan_table',$data);
-	}
-
-
-	public function test($action = null)
-	{
-
-
-		$data = [];
-		$data['action'] = $action;
-		
-		$this->view('test',$data);
-	}
-*/	
+	
 }

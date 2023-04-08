@@ -1,5 +1,7 @@
 # user-friendly-Jena-Fuseki-interface
 
+Link to the project[https://fuseki.mohamedamer.dev/public/]
+
 The usability of the Fuseki SPARQL endpoint user interface can be challenging for individuals with limited experience in SPARQL statement construction. Consequently, it is imperative to develop a user-friendly interface that enables users to execute SPARQL queries in a more seamless and dynamic manner. Several examples of SPARQL endpoint interfaces include: https://dbpedia.org/sparql, https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/, and https://nfdi4culture.de/resources/knowledge-graph.html#.
 
 The primary objective is to create an interface with the following capabilities:
